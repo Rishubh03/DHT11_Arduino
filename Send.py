@@ -9,5 +9,5 @@ while True:
   if len(b)>0:
     humidity=b[0:2]
     temperature=b[6:8]
-    urllib.request.urlopen("https://api.thingspeak.com/update?api_key=E4OGI5JK4R6R0ONQ&field1="+str(humidity))
-    urllib.request.urlopen("https://api.thingspeak.com/update?api_key=E4OGI5JK4R6R0ONQ&field2="+str(temperature))
+    urllib.request.urlopen("Paste your thingspeak write channel Link Here for field1"+str(humidity))
+    urllib.request.urlopen("Paste your thingspeak write channel link here for field2"+str(temperature))
