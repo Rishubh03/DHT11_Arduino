@@ -3,7 +3,7 @@ import json
 import time
 
 while True:
-    data=urllib.request.urlopen("https://api.thingspeak.com/channels/1349756/feeds.json?api_key=05QXJGNLQY3X9SPC&results=2")
+    data=urllib.request.urlopen("Paste your Thinkspeak Read Channel Link Here")
     response=data.read()
     data=json.loads(response.decode())
     Entry=data['feeds']
